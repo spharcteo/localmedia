@@ -3,9 +3,9 @@ import Image from "next/image";
 const posts = [
   {
     id: 1,
-    title: 'Beautiful Landscapes',
+    title: 'AI地域未来塾',
     content: 'Discover the most breathtaking views from around the world...',
-    image: '/placeholder.svg?height=600&width=800',
+    image: '/images/AImiraijyukuMain.jpg',
   },
   {
     id: 2,
