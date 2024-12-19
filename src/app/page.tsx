@@ -12,20 +12,20 @@ export const posts = [
     id: 2,
     title: 'Urban Architecture',
     content: 'Explore the stunning designs of modern cities and their iconic buildings...',
-    image: '/placeholder.svg?height=600&width=800',
+    image: '/images/海ほたる.jpg',
   },
   {
     id: 3,
     title: 'Nature Close-ups',
     content: 'Get up close and personal with the wonders of the natural world...',
-    image: '/placeholder.svg?height=600&width=800',
+    image: '/images/片瀬海岸.jpg',
   },
 ]
 
 export default function LandingPage() {
   return (
     <div className="pt-20">
-      {posts.map((post, _index) => (
+      {posts.map((post, index) => (
         <section
           key={post.id}
           className="min-h-screen flex flex-col md:flex-row items-center justify-center p-4 md:p-8"
